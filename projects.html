@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Atlas SoftWeb Pvt Ltd</title>
+  <meta name="description" content="Browse projects delivered by Atlas SoftWeb — web apps, Android apps, Python solutions, DevOps pipelines, and academic projects." />
+  <meta property="og:title" content="Projects | Atlas SoftWeb Pvt Ltd" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="assets/images/logo-optimized.png" onerror="this.src='assets/images/logo.svg'" alt="Atlas SoftWeb Logo" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="internship.html">Internship</a></li>
+        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn-primary-custom" href="internship.html" style="padding:10px 22px;font-size:.9rem;">Apply Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container position-relative" style="z-index:1;">
+    <span class="section-badge fade-in">Our Portfolio</span>
+    <h1 class="section-title mt-2 fade-in">Our <span class="gradient-text">Projects</span></h1>
+    <p class="section-subtitle fade-in">A showcase of real-world solutions delivered across web, mobile, cloud, and automation domains.</p>
+    <div class="breadcrumb-custom fade-in">
+      <a href="index.html">Home</a> <i class="fas fa-chevron-right fa-xs"></i> <span>Projects</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section">
+  <div class="container">
+
+    <!-- Filter Buttons -->
+    <div class="filter-btns fade-in">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="web">Web Dev</button>
+      <button class="filter-btn" data-filter="android">Android</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="devops">DevOps</button>
+      <button class="filter-btn" data-filter="academic">Academic</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="row g-4" id="projectsGrid">
+
+      <!-- Web Projects -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card h-100">
+          <div class="project-img">🛒</div>
+          <div class="project-body">
+            <div class="project-category">Web Development</div>
+            <h5>E-Commerce Platform</h5>
+            <p>Full-featured online store with admin panel, payment gateway, inventory management, and order tracking.</p>
+            <div class="project-tech"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>PayU</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#00d4ff,#6c63ff);">📊</div>
+          <div class="project-body">
+            <div class="project-category">Web Development</div>
+            <h5>CRM System</h5>
+            <p>Custom CRM with lead management, sales pipeline, customer tracking, and automated email follow-ups.</p>
+            <div class="project-tech"><span>Laravel</span><span>Vue.js</span><span>MySQL</span><span>API</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#ff6584,#fbbf24);">🏥</div>
+          <div class="project-body">
+            <div class="project-category">Web Development</div>
+            <h5>Hospital Management System</h5>
+            <p>Patient registration, appointment booking, doctor scheduling, billing, and medical records management.</p>
+            <div class="project-tech"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>JS</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="web">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#4ade80,#00d4ff);">🎓</div>
+          <div class="project-body">
+            <div class="project-category">Web Development</div>
+            <h5>Online Learning Portal</h5>
+            <p>LMS with course management, video streaming, quizzes, certificates, and student progress tracking.</p>
+            <div class="project-tech"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>API</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Android Projects -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="android">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#4ade80,#6c63ff);">🛍️</div>
+          <div class="project-body">
+            <div class="project-category">Android App</div>
+            <h5>Grocery Delivery App</h5>
+            <p>Customer-facing Android app with real-time order tracking, payment integration, and push notifications.</p>
+            <div class="project-tech"><span>Kotlin</span><span>Firebase</span><span>Maps API</span><span>Razorpay</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="android">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#fbbf24,#ff6584);">📍</div>
+          <div class="project-body">
+            <div class="project-category">Android App</div>
+            <h5>Field Force Tracker</h5>
+            <p>GPS-based employee tracking app with attendance management, route optimization, and real-time reporting.</p>
+            <div class="project-tech"><span>Java</span><span>Firebase</span><span>Google Maps</span><span>REST API</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="android">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#6c63ff,#00d4ff);">💊</div>
+          <div class="project-body">
+            <div class="project-category">Android App</div>
+            <h5>Medicine Reminder App</h5>
+            <p>Smart medication reminder with dosage scheduling, missed-dose alerts, and pharmacy locator feature.</p>
+            <div class="project-tech"><span>Kotlin</span><span>SQLite</span><span>Firebase FCM</span><span>Maps</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Python Projects -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="python">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#4ade80,#6c63ff);">🤖</div>
+          <div class="project-body">
+            <div class="project-category">Python</div>
+            <h5>Invoice Automation System</h5>
+            <p>Automated invoice generation, emailing, and PDF creation from spreadsheet data — saves 40+ hrs/week.</p>
+            <div class="project-tech"><span>Python</span><span>Pandas</span><span>SMTP</span><span>ReportLab</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="python">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#fbbf24,#4ade80);">📈</div>
+          <div class="project-body">
+            <div class="project-category">Python</div>
+            <h5>Sales Dashboard (Django)</h5>
+            <p>Web-based sales analytics dashboard with charts, date filters, CSV export, and role-based access.</p>
+            <div class="project-tech"><span>Django</span><span>Chart.js</span><span>MySQL</span><span>Bootstrap</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="python">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#ff6584,#fbbf24);">🔍</div>
+          <div class="project-body">
+            <div class="project-category">Python</div>
+            <h5>Web Scraping & Reports</h5>
+            <p>Automated data scraping from e-commerce sites with scheduled reports and email notifications.</p>
+            <div class="project-tech"><span>Python</span><span>BeautifulSoup</span><span>Selenium</span><span>Flask</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps Projects -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="devops">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#00d4ff,#4ade80);">🐳</div>
+          <div class="project-body">
+            <div class="project-category">DevOps</div>
+            <h5>Microservices Pipeline</h5>
+            <p>Containerized microservices with Docker, Kubernetes orchestration, and automated CI/CD using Jenkins.</p>
+            <div class="project-tech"><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>AWS</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="devops">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#6c63ff,#ff6584);">☁️</div>
+          <div class="project-body">
+            <div class="project-category">DevOps</div>
+            <h5>AWS Infrastructure Setup</h5>
+            <p>Complete AWS infrastructure for a SaaS application — EC2, RDS, S3, CloudFront, and auto-scaling groups.</p>
+            <div class="project-tech"><span>AWS EC2</span><span>RDS</span><span>S3</span><span>CloudFront</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Projects -->
+      <div class="col-md-6 col-lg-4 project-item" data-category="academic">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#fbbf24,#6c63ff);">🎓</div>
+          <div class="project-body">
+            <div class="project-category">Academic Project</div>
+            <h5>Smart Attendance System</h5>
+            <p>QR-code based attendance system for colleges — auto-reports, parent notifications, and admin dashboard.</p>
+            <div class="project-tech"><span>Laravel</span><span>QR Code</span><span>SMS API</span><span>MySQL</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="academic">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#4ade80,#fbbf24);">📚</div>
+          <div class="project-body">
+            <div class="project-category">Academic Project</div>
+            <h5>Library Management System</h5>
+            <p>Digital library with book cataloguing, issue/return tracking, fines management, and student portal.</p>
+            <div class="project-tech"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>JS</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project-item" data-category="academic">
+        <div class="project-card h-100">
+          <div class="project-img" style="background:linear-gradient(135deg,#ff6584,#00d4ff);">🗳️</div>
+          <div class="project-body">
+            <div class="project-category">Academic Project</div>
+            <h5>Online Voting System</h5>
+            <p>Secure online voting platform with OTP verification, real-time results, and tamper-proof audit logs.</p>
+            <div class="project-tech"><span>Python</span><span>Django</span><span>SQLite</span><span>Bootstrap</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end row -->
+
+    <div class="text-center mt-5 fade-in">
+      <p style="color:var(--text-secondary);">Want us to build something for you?</p>
+      <a href="contact.html" class="btn-primary-custom mt-2"><i class="fas fa-rocket"></i> Request a Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box fade-in">
+      <h2 class="section-title">Have a Project <span class="gradient-text">Idea?</span></h2>
+      <p class="section-subtitle">Let's turn your idea into a production-ready solution with our experienced team.</p>
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <a href="contact.html" class="btn-primary-custom"><i class="fas fa-paper-plane"></i> Start a Project</a>
+        <a href="internship.html" class="btn-outline-custom"><i class="fas fa-graduation-cap"></i> Apply For Internship</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-brand"><img src="assets/images/logo-optimized.png" onerror="this.src='assets/images/logo.svg'" alt="Atlas SoftWeb" /></div>
+        <p class="footer-desc">Empowering students, freshers, startups and businesses with cutting-edge IT solutions and mentorship.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-heading">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-chevron-right fa-xs"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right fa-xs"></i> About Us</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> Services</a></li>
+          <li><a href="projects.html"><i class="fas fa-chevron-right fa-xs"></i> Projects</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right fa-xs"></i> Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-heading">Services</h6>
+        <ul class="footer-links">
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> DevOps</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> Laravel Dev</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> Android Apps</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> Python Dev</a></li>
+          <li><a href="services.html"><i class="fas fa-chevron-right fa-xs"></i> Full Stack</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-heading">Internships</h6>
+        <ul class="footer-links">
+          <li><a href="internship.html"><i class="fas fa-chevron-right fa-xs"></i> DevOps</a></li>
+          <li><a href="internship.html"><i class="fas fa-chevron-right fa-xs"></i> Laravel</a></li>
+          <li><a href="internship.html"><i class="fas fa-chevron-right fa-xs"></i> Android</a></li>
+          <li><a href="internship.html"><i class="fas fa-chevron-right fa-xs"></i> Python</a></li>
+          <li><a href="internship.html"><i class="fas fa-chevron-right fa-xs"></i> Full Stack</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="footer-heading">Contact Us</h6>
+        <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Surat, Gujarat, India</span></div>
+        <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+91 XXXXX XXXXX</span></div>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@atlassoftweb.com</span></div>
+        <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Mon–Sat: 9:00 AM – 6:00 PM</span></div>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center footer-bottom">
+      <p class="mb-0">© 2024 Atlas SoftWeb Pvt Ltd. All rights reserved.</p>
+      <p class="mb-0">Made with <i class="fas fa-heart" style="color:var(--accent);"></i> for tech learners</p>
+    </div>
+  </div>
+</footer>
+<button id="scrollTop" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
